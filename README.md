@@ -64,3 +64,42 @@ Licensed under The GNU General Public License version 3 (GPLv3)  (the "License")
 <https://www.gnu.org/licenses/gpl-3.0.html>
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+## Installation Instructions
+
+To install the application, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/xaiksan1/1Panel.git
+   cd 1Panel
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+## Setup Instructions
+
+To set up the application, follow these steps:
+
+1. Create a `.env` file in the `frontend` directory and add the necessary environment variables. You can use the `.env.example` file as a reference.
+
+2. Configure the application settings in the `frontend/src/config` directory.
+
+## Running the Application
+
+To run the application, follow these steps:
+
+1. Build the application:
+   ```bash
+   npm run build
+   ```
+
+2. Start the application:
+   ```bash
+   npm start
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000` to access the application.

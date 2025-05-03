@@ -1,0 +1,22 @@
+{
+  "name": "backpanel1",
+  "version": "1.0.0",
+  "description": "backend41panel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaiksan1/1panel.git"
+  },
+  "keywords": [
+    "111"
+  ],
+  "author": "Larchit3k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaiksan1/1panel/issues"
+  },
+  "homepage": "https://github.com/xaiksan1/1panel#readme"
+}

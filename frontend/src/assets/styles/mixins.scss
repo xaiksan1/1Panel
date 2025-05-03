@@ -1,0 +1,30 @@
+/* Mixins Stylesheet for the Application */
+
+/* Mixin for flexbox centering */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mixin for text truncation */
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Mixin for box shadow */
+@mixin box-shadow($x, $y, $blur, $color) {
+  box-shadow: $x $y $blur $color;
+}
+
+/* Mixin for responsive font size */
+@mixin responsive-font-size($min-size, $max-size) {
+  font-size: calc(#{$min-size} + (#{$max-size} - #{$min-size}) * ((100vw - 320px) / (1600 - 320)));
+}
+
+/* Mixin for gradient background */
+@mixin gradient-background($start-color, $end-color) {
+  background: linear-gradient(to right, $start-color, $end-color);
+}
