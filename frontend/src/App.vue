@@ -1,5 +1,9 @@
 <template>
     <el-config-provider :locale="i18nLocale" :button="config" size="default">
+        <Header />
+        <Sidebar />
+        <Content />
+        <Footer />
         <router-view v-if="isRouterAlive" />
     </el-config-provider>
 </template>

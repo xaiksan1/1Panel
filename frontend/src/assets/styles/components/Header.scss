@@ -1,0 +1,32 @@
+/* Stylesheet for the Header component */
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Logo styles */
+.logo img {
+  height: 40px;
+}
+
+/* Navigation styles */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

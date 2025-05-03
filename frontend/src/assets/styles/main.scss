@@ -1,0 +1,49 @@
+/* Main Stylesheet for the Application */
+
+/* Importing necessary stylesheets */
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: $header-background-color;
+  color: $header-text-color;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: $footer-background-color;
+  color: $footer-text-color;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: $sidebar-background-color;
+  color: $sidebar-text-color;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+/* Content styles */
+.content {
+  margin-left: 250px;
+  padding: 1rem;
+}

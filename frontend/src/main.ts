@@ -25,6 +25,11 @@ import Fit2CloudPlus from 'fit2cloud-ui-plus';
 import * as Icons from '@element-plus/icons-vue';
 import hljsVuePlugin from '@highlightjs/vue-plugin';
 
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import Sidebar from '@/components/Sidebar.vue';
+import Content from '@/components/Content.vue';
+
 const app = createApp(App);
 app.use(hljsVuePlugin);
 app.component('SvgIcon', SvgIcon);
@@ -34,6 +39,11 @@ app.use(Fit2CloudPlus, { locale: i18n.global.messages.value[localStorage.getItem
 Object.keys(Icons).forEach((key) => {
     app.component(key, Icons[key as keyof typeof Icons]);
 });
+
+app.component('Header', Header);
+app.component('Footer', Footer);
+app.component('Sidebar', Sidebar);
+app.component('Content', Content);
 
 app.use(router);
 app.use(i18n);
